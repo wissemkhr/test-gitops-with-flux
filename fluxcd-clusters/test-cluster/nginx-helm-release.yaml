@@ -7,7 +7,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: nginx-custom-helm-chart
+      chart: nginx-custom-chart
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
