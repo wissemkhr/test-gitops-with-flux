@@ -7,9 +7,9 @@ metadata:
 spec:
   chart:
     spec:
-      chart: nginx-custom-chart
+      chart: .
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
         name: nginx-helm-chart-source
-  interval: 10m0s
+  interval: 3m0s
