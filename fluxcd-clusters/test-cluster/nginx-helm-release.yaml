@@ -10,6 +10,6 @@ spec:
       chart: nginx-custom-helm-chart
       reconcileStrategy: ChartVersion
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: nginx-helm-chart-source
   interval: 3m0s
