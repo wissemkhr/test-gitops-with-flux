@@ -1,0 +1,9 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1
+kind: ImageRepository
+metadata:
+  name: alpine-repo
+  namespace: flux-system
+spec:
+  image: docker.io/wissemkh1/react-web-app
+  interval: 1m0s
