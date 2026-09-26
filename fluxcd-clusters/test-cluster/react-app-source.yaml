@@ -8,4 +8,6 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/wissemkhr/react-k8s-repo
+  secretRef:
+    name: react-app-source
+  url: ssh://github.com/wissemkhr/react-k8s-repo.git
